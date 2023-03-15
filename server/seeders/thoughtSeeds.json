@@ -1,42 +1,22 @@
 [
   {
-    "thoughtText": "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?",
-    "thoughtAuthor": "Brian Kernighan"
+    "thoughtText": "Name: Alice Johnson, Email: alice.johnson@example.com, Order details: I would like to order 2 Vanilla-bean cheesecakes for pickup on Friday at 3 pm.",
+    "thoughtAuthor": "AliceJohnson"
   },
   {
-    "thoughtText": "Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.",
-    "thoughtAuthor": "Max Kanat-Alexander"
+    "thoughtText": "Name: Brian Smith, Email: brian.smith@example.com, Order details: Please reserve 1 Vanilla-bean cheesecake for me. I will pick it up on Saturday at 1 pm.",
+    "thoughtAuthor": "BrianSmith"
   },
   {
-    "thoughtText": "When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.",
-    "thoughtAuthor": "Why The Lucky Stiff"
+    "thoughtText": "Name: Chloe Martinez, Email: chloe.martinez@example.com, Order details: I'd like to order 3 Vanilla-bean cheesecakes for delivery on Sunday. My address is 123 Main St, Apt 4B.",
+    "thoughtAuthor": "ChloeMartinez"
   },
   {
-    "thoughtText": "I'm not a great programmer; I'm just a good programmer with great habits.",
-    "thoughtAuthor": "Kent Beck"
+    "thoughtText": "Name: David Brown, Email: david.brown@example.com, Order details: I would like to order 4 Vanilla-bean cheesecakes for pickup on Monday at 5 pm.",
+    "thoughtAuthor": "DavidBrown"
   },
   {
-    "thoughtText": "Walking on water and developing software from a specification are easy if both are frozen.",
-    "thoughtAuthor": "Edward V. Berard"
-  },
-  {
-    "thoughtText": "The most disastrous thing that you can ever learn is your first programming language.",
-    "thoughtAuthor": "Alan Kay"
-  },
-  {
-    "thoughtText": "The most important property of a program is whether it accomplishes the intention of its user.",
-    "thoughtAuthor": "C.A.R. Hoare"
-  },
-  {
-    "thoughtText": "Delivering good software today is often better than perfect software tomorrow, so finish things and ship.",
-    "thoughtAuthor": "David Thomas"
-  },
-  {
-    "thoughtText": "If you optimize everything, you will always be unhappy.",
-    "thoughtAuthor": "Donald Knuth"
-  },
-  {
-    "thoughtText": "It's not a bug; it's an undocumented feature.",
-    "thoughtAuthor": "Lernantino"
+    "thoughtText": "Name: Emma White, Email: emma.white@example.com, Order details: Please reserve 2 Vanilla-bean cheesecakes for me. I will pick them up on Tuesday at 6 pm.",
+    "thoughtAuthor": "EmmaWhite"
   }
 ]
