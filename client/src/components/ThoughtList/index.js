@@ -8,7 +8,7 @@ const ThoughtList = ({
   showUsername = true,
 }) => {
   if (!thoughts.length) {
-    return <h3>No Thoughts Yet</h3>;
+    return <h3>No Reviews Yet</h3>;
   }
 
   return (
@@ -40,10 +40,10 @@ const ThoughtList = ({
               <p>{thought.thoughtText}</p>
             </div>
             <Link
-              className="btn btn- btn-block btn-squared"
+              className="btn btn- btn-block btn-squared"style={{ backgroundColor: '#09C2F4', borderColor: '#09C2F4' }}
               to={`/thoughts/${thought._id}`}
             >
-              Share your Sweet Thoughts here.
+              Share your Sweet Reviews here.
             </Link>
           </div>
         ))}

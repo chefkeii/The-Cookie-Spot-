@@ -64,7 +64,7 @@ const ThoughtForm = () => {
   return (
     <div className="thought-container">
       <h3>Request this weeks treat here </h3>
-
+      
       {Auth.loggedIn() ? (
         <>
           <p
@@ -90,7 +90,7 @@ const ThoughtForm = () => {
             </div>
 
             <div className="col-12 col-lg-3">
-              <button className="btn btn-black btn-block py-3" type="submit">
+              <button className="btn btn-black btn-block py-3" style={{ backgroundColor: '#F409AB', borderColor: '#09C2F4' }}type="submit">
                 Order Now
               </button>
             </div>

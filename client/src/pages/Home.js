@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client';
 
 import ThoughtList from '../components/ThoughtList';
 import ThoughtForm from '../components/ThoughtForm';
-import CookieCard from '../components/DessertCard';
+import DessertCard from '../components/DessertCard';
 
 import { QUERY_THOUGHTS } from '../utils/queries';
 
@@ -18,12 +18,12 @@ const Home = () => {
           className="col-12 col-md-7 mb-3 p-3"
           style={{}}
         >
-          <CookieCard />
+          <DessertCard />
         </div>
 
         <div
           className="col-12 col-md-7 mb-3 p-3"
-          style={{}}
+          style={{ border: '1px dotted #1A1A1A' }}
         >
           <ThoughtForm />
         </div>
@@ -33,7 +33,7 @@ const Home = () => {
           ) : (
             <ThoughtList
               thoughts={thoughts}
-              title="Cookie Request Here..."
+              title="Requested Desserts"
             />
           )}
         </div>

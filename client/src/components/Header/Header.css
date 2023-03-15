@@ -1,0 +1,30 @@
+.btn-info {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-info:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  
+  .btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  

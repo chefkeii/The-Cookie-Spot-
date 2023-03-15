@@ -10,10 +10,11 @@ function DessertCard() {
         src={dessertImg}
         alt="featured dessert"
         style={{
-          width: '80%', // Adjust the width as needed
+          width: '50%', // Reduce the width to make the image smaller
           height: 'auto',
           display: 'block',
           margin: '0 auto',
+          borderRadius: '20px', // Add curved edges to the image
         }}
       />
       <Card.Body>
