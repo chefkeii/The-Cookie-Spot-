@@ -31,13 +31,13 @@ const SingleThought = () => {
           Ordered on {thought.createdAt}
         </span>
       </h3>
-      <div className="bg-light py-4">
+      <div className="bg-white py-4"style={{ border: '1px dotted #1a1a1a' }}>
         <blockquote
           className="p-4"
           style={{
             fontSize: '1.5rem',
             fontStyle: 'italic',
-            border: '2px dotted #1a1a1a',
+            border: '2px dotted #F409AB',
             lineHeight: '1.5',
           }}
         >

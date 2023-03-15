@@ -77,10 +77,10 @@ const Signup = () => {
                 />
                 <button
                   className="btn btn-block btn-primary"
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: 'pointer', backgroundColor: '#09C2F4', borderColor: '#ffffff', color: '#000000' }}
                   type="submit"
                 >
-                  Submit
+                  Thanks for Signing-up 
                 </button>
               </form>
             )}

@@ -2,21 +2,5 @@
   {
     "thoughtText": "Name: Alice Johnson, Email: alice.johnson@example.com, Order details: I would like to order 2 Vanilla-bean cheesecakes for pickup on Friday at 3 pm.",
     "thoughtAuthor": "AliceJohnson"
-  },
-  {
-    "thoughtText": "Name: Brian Smith, Email: brian.smith@example.com, Order details: Please reserve 1 Vanilla-bean cheesecake for me. I will pick it up on Saturday at 1 pm.",
-    "thoughtAuthor": "BrianSmith"
-  },
-  {
-    "thoughtText": "Name: Chloe Martinez, Email: chloe.martinez@example.com, Order details: I'd like to order 3 Vanilla-bean cheesecakes for delivery on Sunday. My address is 123 Main St, Apt 4B.",
-    "thoughtAuthor": "ChloeMartinez"
-  },
-  {
-    "thoughtText": "Name: David Brown, Email: david.brown@example.com, Order details: I would like to order 4 Vanilla-bean cheesecakes for pickup on Monday at 5 pm.",
-    "thoughtAuthor": "DavidBrown"
-  },
-  {
-    "thoughtText": "Name: Emma White, Email: emma.white@example.com, Order details: Please reserve 2 Vanilla-bean cheesecakes for me. I will pick them up on Tuesday at 6 pm.",
-    "thoughtAuthor": "EmmaWhite"
   }
 ]

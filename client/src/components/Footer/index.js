@@ -25,7 +25,7 @@ const Footer = () => {
           >
             ❤️
           </span>{' '}
-          by the Sweet Spot team.
+          by the Tru3ly Keii
         </h4>
       </div>
     </footer>

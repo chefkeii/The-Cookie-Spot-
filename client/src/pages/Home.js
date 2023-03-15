@@ -23,7 +23,7 @@ const Home = () => {
 
         <div
           className="col-12 col-md-7 mb-3 p-3"
-          style={{ border: '1px dotted #1A1A1A' }}
+          style={{ border: '5px dotted #F4C709' }}
         >
           <ThoughtForm />
         </div>
