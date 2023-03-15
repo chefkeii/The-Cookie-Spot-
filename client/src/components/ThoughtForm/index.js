@@ -13,26 +13,27 @@ const ThoughtForm = () => {
   const [characterCount, setCharacterCount] = useState(0);
 
   const [addThought, { error }] = useMutation(ADD_THOUGHT, {
-    update(cache, { data: { addThought } }) {
-      try {
-        const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
+    refetchQueries: [{ query: QUERY_THOUGHTS }]})
+    // update(cache, { data: { addThought } }) {
+    //   try {
+    //     const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
 
-        cache.writeQuery({
-          query: QUERY_THOUGHTS,
-          data: { thoughts: [addThought, ...thoughts] },
-        });
-      } catch (e) {
-        console.error(e);
-      }
+    //     cache.writeQuery({
+    //       query: QUERY_THOUGHTS,
+    //       data: { thoughts: [addThought, ...thoughts] },
+    //     });
+    //   } catch (e) {
+    //     console.error(e);
+    //   }
 
-      // update me object's cache
-      const { me } = cache.readQuery({ query: QUERY_ME });
-      cache.writeQuery({
-        query: QUERY_ME,
-        data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
-      });
-    },
-  });
+    //   // update me object's cache
+    //   const { me } = cache.readQuery({ query: QUERY_ME });
+    //   cache.writeQuery({
+    //     query: QUERY_ME,
+    //     data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
+    //   });
+    // },
+  // });
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
@@ -61,8 +62,8 @@ const ThoughtForm = () => {
   };
 
   return (
-    <div>
-      <h3>What's on your techy mind?</h3>
+    <div className="thought-container">
+      <h3>Request this weeks treat here </h3>
 
       {Auth.loggedIn() ? (
         <>
@@ -71,26 +72,26 @@ const ThoughtForm = () => {
               characterCount === 280 || error ? 'text-danger' : ''
             }`}
           >
-            Character Count: {characterCount}/280
+            Provide your Name, Email and Order details below: 
           </p>
           <form
-            className="flex-row justify-center justify-space-between-md align-center"
+            className="flex-column justify-center justify-space-between-md align-center"
             onSubmit={handleFormSubmit}
           >
             <div className="col-12 col-lg-9">
               <textarea
                 name="thoughtText"
-                placeholder="Here's a new thought..."
+                placeholder="This week I want..."
                 value={thoughtText}
-                className="form-input w-100"
+                className="form-input w-50"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
                 onChange={handleChange}
               ></textarea>
             </div>
 
             <div className="col-12 col-lg-3">
-              <button className="btn btn-primary btn-block py-3" type="submit">
-                Add Thought
+              <button className="btn btn-black btn-block py-3" type="submit">
+                Order Now
               </button>
             </div>
             {error && (
@@ -102,7 +103,7 @@ const ThoughtForm = () => {
         </>
       ) : (
         <p>
-          You need to be logged in to share your thoughts. Please{' '}
+          You need to be logged in to request desserts. Please{' '}
           <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
         </p>
       )}

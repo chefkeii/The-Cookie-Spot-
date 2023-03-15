@@ -1,19 +1,35 @@
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import React from 'react';
+import dessertImg from './assets/images/cheesecake.png';
 
-function CookieCard() {
+function DessertCard() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+    <Card style={{ width: '50rem' }}>
+      <Card.Img
+        variant="top"
+        src={dessertImg}
+        alt="featured dessert"
+        style={{
+          width: '80%', // Adjust the width as needed
+          height: 'auto',
+          display: 'block',
+          margin: '0 auto',
+        }}
+      />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>
+          <h1>"Sweet of the Week"</h1>
+        </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          <p>
+            This Cheesecake is pure, unadulterated bliss, imagine a velvety vanilla-bean base made with 
+            real Philly Cream cheese and the perfect amount of graham cracker crust. Infused with notes of 
+            lemon and almond, every bite is a heavenly delight.
+          </p>
         </Card.Text>
       </Card.Body>
     </Card>
   );
 }
 
-export default CookieCard;
+export default DessertCard;
