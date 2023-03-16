@@ -72,7 +72,7 @@ const ThoughtForm = () => {
               characterCount === 280 || error ? 'text-danger' : ''
             }`}
           >
-            Provide your Name, Email and Order details below: 
+            Provide your Name and Order details below: 
           </p>
           <form
             className="flex-column justify-center justify-space-between-md align-center"
