@@ -5,6 +5,7 @@ import { useMutation } from '@apollo/client';
 import { ADD_THOUGHT } from '../../utils/mutations';
 import { QUERY_THOUGHTS, QUERY_ME } from '../../utils/queries';
 
+
 import Auth from '../../utils/auth';
 
 const ThoughtForm = () => {
@@ -63,7 +64,7 @@ const ThoughtForm = () => {
 
   return (
     <div className="thought-container">
-      <h3>Request this weeks treat here </h3>
+      <h3>Request this weeks treat here</h3>
       
       {Auth.loggedIn() ? (
         <>

@@ -17,7 +17,7 @@ const ThoughtList = ({
       {thoughts &&
         thoughts.map((thought) => (
           <div key={thought._id} className="card mb-3">
-            <h4 className="card-header bg-black text-light p-2 m-0">
+            <h4 className="card-header bg-black text-light p-2 m-0" style={{ backgroundColor: '#09C2F4', borderColor: '#09C2F4' }}>
               {showUsername ? (
                 <Link
                   className="text-light"

@@ -1,6 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react';
 import dessertImg from './assets/images/cheesecake.png';
+import './index.css'
+
 
 function DessertCard() {
   return (
@@ -26,6 +28,12 @@ function DessertCard() {
             This Cheesecake is pure, unadulterated bliss, imagine a velvety vanilla-bean base made with 
             real Philly Cream cheese and the perfect amount of graham cracker crust. Infused with notes of 
             lemon and almond, every bite is a heavenly delight.
+          </p>
+          You have the option of curb-side pick-up on Friday and Saturday from 11am - 7pm cst
+         <li>@ 1234 E. Delicious Ave. Austin, Texas</li>   
+         <li>Call (512)334-1123 when you arrive!!</li>
+          <p>
+
           </p>
         </Card.Text>
       </Card.Body>

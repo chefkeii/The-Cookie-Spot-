@@ -10,7 +10,7 @@ const Footer = () => {
         {location.pathname !== '/' && (
           <button
             className="btn btn-dark mb-3"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate('/')}
           >
             &larr; Go Back
           </button>
@@ -25,7 +25,7 @@ const Footer = () => {
           >
             ❤️
           </span>{' '}
-          by the Tru3ly Keii
+          by Tru3ly Keii
         </h4>
       </div>
     </footer>
